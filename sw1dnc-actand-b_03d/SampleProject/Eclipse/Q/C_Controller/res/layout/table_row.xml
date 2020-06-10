@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFF0000"
+    android:layout_marginTop="5dp" >
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/headerimage"/>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/modeimage"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="#FFFFF5"
+                android:textSize="20sp"
+                android:layout_gravity="center_vertical"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#FFFFF5"
+                android:textColor="#6F6F6F"
+                android:textSize="20sp"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_vertical"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#FFFFF5"
+            android:textSize="20sp"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+
+
+</TableRow>

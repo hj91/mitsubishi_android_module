@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#FFFFFFFF"
+    android:baselineAligned="false" >
+
+    <LinearLayout
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/open_button"
+            android:layout_width="160dp"
+            android:layout_height="0dp"
+			android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:background="@layout/button_open"
+            android:text="@string/open_button"
+            android:textColor="#FF0091FF"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/close_button"
+            android:layout_width="160dp"
+            android:layout_height="0dp"
+			android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:background="@layout/button_close"
+            android:text="@string/close_button"
+            android:textColor="#FF778899"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/readdeviceblock_button"
+            android:layout_width="160dp"
+            android:layout_height="0dp"
+			android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:background="@layout/button_read"
+            android:text="@string/readdeviceblock_button"
+            android:textColor="#FF008080"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/writedeviceblock_button"
+            android:layout_width="160dp"
+            android:layout_height="0dp"
+			android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:background="@layout/button_write"
+            android:text="@string/writedeviceblock_button"
+            android:textColor="#FFB22222"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/readdevicerandom_button"
+            android:layout_width="160dp"
+            android:layout_height="0dp"
+			android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:background="@layout/button_read"
+            android:text="@string/readdevicerandom_button"
+            android:textColor="#FF008080"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/writedevicerandom_button"
+            android:layout_width="160dp"
+            android:layout_height="0dp"
+			android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:background="@layout/button_write"
+            android:text="@string/writedevicerandom_button"
+            android:textColor="#FFB22222"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/readarraylabel_button"
+            android:layout_width="160dp"
+            android:layout_height="0dp"
+			android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:background="@layout/button_read"
+            android:text="@string/readarraylabel_button"
+            android:textColor="#FF008080"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/writearraylabel_button"
+            android:layout_width="160dp"
+            android:layout_height="0dp"
+			android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:background="@layout/button_write"
+            android:text="@string/writearraylabel_button"
+            android:textColor="#FFB22222"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/readlabelrandom_button"
+            android:layout_width="160dp"
+            android:layout_height="0dp"
+			android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:background="@layout/button_read"
+            android:text="@string/readlabelrandom_button"
+            android:textColor="#FF008080"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/writelabelrandom_button"
+            android:layout_width="160dp"
+            android:layout_height="0dp"
+			android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:background="@layout/button_write"
+            android:text="@string/writelabelrandom_button"
+            android:textColor="#FFB22222"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/clear_button"
+            android:layout_width="160dp"
+            android:layout_height="0dp"
+			android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:background="@layout/button_clear"
+            android:text="@string/clear_button"
+            android:textColor="#FFFFFFFF"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollview_record"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#FF808080">
+        <TableLayout
+            android:id="@+id/tableview_record"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="5dp">
+        </TableLayout>
+    </ScrollView>
+
+</LinearLayout>

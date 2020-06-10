@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MX Component</string>
+    <string name="action_settings">Settings</string>
+    <string name="open_button">Open</string>
+    <string name="close_button">Close</string>
+    <string name="readdeviceblock_button">Read\nDeviceBlock</string>
+    <string name="writedeviceblock_button">Write\nDeviceBlock</string>
+    <string name="readdevicerandom_button">Read\nDeviceRandom</string>
+    <string name="writedevicerandom_button">Write\nDeviceRandom</string>
+    <string name="readarraylabel_button">Read\nArrayLabel</string>
+    <string name="writearraylabel_button">Write\nArrayLabel</string>
+    <string name="readlabelrandom_button">Read\nLabelRandom</string>
+    <string name="writelabelrandom_button">Write\nLabelRandom</string>
+    <string name="clear_button">Clear\nRecord</string>
+    <string name="headerimage">headerimage</string>
+    <string name="modeimage">modeimage</string>
+    </resources>
